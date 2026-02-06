@@ -8,7 +8,21 @@
 def categorize_age(age):
     ageCategory = "TBD"
     ######################
-    # WRITE YOUR CODE HERE
+    START
+
+INPUT age
+
+IF age <= 1 THEN
+    DISPLAY "Infant"
+ELSE IF age > 1 AND age < 13 THEN
+    DISPLAY "Child"
+ELSE IF age >= 13 AND age < 20 THEN
+    DISPLAY "Teenager"
+ELSE
+    DISPLAY "Adult"
+END IF
+
+END
     ######################
 
 
